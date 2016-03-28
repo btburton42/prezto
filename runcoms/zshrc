@@ -14,5 +14,3 @@ fi
 source $HOME/.commonrc
 source $HOME/.btburton-dotfile
 source $HOME/.token-dotfile
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
