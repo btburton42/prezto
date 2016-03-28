@@ -1,9 +1,9 @@
-#
+
 # Executes commands at the start of an interactive session.
 #
 # Authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
+
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
@@ -11,3 +11,8 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+source $HOME/.commonrc
+source $HOME/.btburton-dotfile
+source $HOME/.token-dotfile
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
