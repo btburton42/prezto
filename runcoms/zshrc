@@ -14,3 +14,6 @@ fi
 source $HOME/.commonrc
 source $HOME/.btburton-dotfile
 source $HOME/.token-dotfile
+
+# load nix
+. $HOME/.nix-profile/etc/profile.d/nix.sh
